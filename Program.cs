@@ -86,5 +86,22 @@ namespace GitLearn
 
             }
         }
+
+        class Point
+        {
+            private bool _isAlive;
+
+            public int X { get; private set; }
+            public int Y { get; private set; }
+
+            public Point(int x, int y, bool isAlive)
+            {
+                X = x;
+                Y = y;
+                _isAlive = isAlive;
+            }
+              
+
+        }
     }
 }
